@@ -1,0 +1,32 @@
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": true,
+    "editor.rulers": [
+        120
+    ],
+    "python.pythonPath": ".venv/bin/python",
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.autoComplete.extraPaths": [
+        "source"
+    ],
+    "python.linting.pylintArgs": [
+        "--rcfile=${workspaceFolder}/.pylintrc",
+        // "--init-hook",
+        // "import sys; sys.path.append('source')",
+        // "--enable=all",
+        // "--max-line-length=120",
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120",
+        "--experimental"
+    ],
+    "autoDocstring.quoteStyle": "'''",
+    "autoDocstring.docstringFormat": "sphinx",
+    "python.analysis.extraPaths": [
+        "source"
+    ],
+}
