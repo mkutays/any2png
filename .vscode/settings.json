@@ -4,7 +4,7 @@
     "editor.rulers": [
         120
     ],
-    "python.pythonPath": ".venv/bin/python",
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
     "python.linting.pycodestyleEnabled": false,
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
